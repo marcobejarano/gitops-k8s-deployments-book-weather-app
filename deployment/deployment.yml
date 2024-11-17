@@ -5,7 +5,7 @@ metadata:
   labels:
     app: zurich-weather-app
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: zurich-weather-app
